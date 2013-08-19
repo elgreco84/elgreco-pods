@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 
-  s.name         = "CanvasKit"
+  s.name         = "CKClient"
   s.version      = "0.0.1"
   s.summary      = "A short description of CanvasKit."
 
