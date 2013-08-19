@@ -11,8 +11,8 @@ Pod::Spec.new do |s|
   s.author       = { "Rick Roberts" => "rroberts@instructure.com" }
 
   s.platform     = :ios, '7.0'
-  s.source       = { :git => "https://github.com/elgreco84/CKClient_Dev.git" }
-  s.source_files  = 'canvaskit/CanvasKit/*'
+  s.source       = { :git => "https://github.com/elgreco84/CKClient_Dev.git", :tag => '0.0.1' }
+  s.source_files  = 'CKClient'
   s.requires_arc = true
 
 end
