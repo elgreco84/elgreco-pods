@@ -15,4 +15,6 @@ Pod::Spec.new do |s|
   s.source_files  = 'CKClient'
   s.requires_arc = true
 
+  s.dependency 'AFOAuth2Client'
+
 end
