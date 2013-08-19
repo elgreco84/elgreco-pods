@@ -1,0 +1,18 @@
+Pod::Spec.new do |s|
+
+  s.name         = "CanvasKit"
+  s.version      = "0.0.1"
+  s.summary      = "A short description of CanvasKit."
+
+  s.description  = "Something"
+
+  s.homepage     = "http://instructure.com"
+  s.license      = 'MIT'
+  s.author       = { "Rick Roberts" => "rroberts@instructure.com" }
+
+  s.platform     = :ios, '7.0'
+  s.source       = { :git => "https://github.com/elgreco84/CKClient_Dev.git" }
+  s.source_files  = 'canvaskit/CanvasKit/*'
+  s.requires_arc = true
+
+end
