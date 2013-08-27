@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.summary = 'A token field that mimics the behavior and functionality provided by Mail.apps recipient field.'
   s.homepage = 'https://github.com/jasarien/JSTokenField'
   s.author = { 'James Addyman' => 'support@jamsoftonline.com' }
-  s.source = { :git => 'https://github.com/jasarien/JSTokenField.git' }
+  s.source = { :git => 'https://github.com/elgreco84/JSTokenField.git' }
   s.source_files = 'JSTokenField'
   s.requires_arc = true
 
