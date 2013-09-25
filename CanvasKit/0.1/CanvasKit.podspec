@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '7.0'
 
-  s.dependency 'AFNetworking', '2.0.0-RC3'
+  s.dependency 'AFNetworking', '2.0.0-RC2'
   s.dependency 'Mantle'
   s.dependency 'ISO8601DateFormatter'
   s.dependency 'FXKeychain'
