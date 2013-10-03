@@ -1,7 +1,5 @@
 Pod::Spec.new do |s|
 
-puts "INTO THE SPEC FILE"
-
   s.name          = "CanvasKit-v1"
   s.version       = "1.0"
   s.summary       = "A short description of CanvasKit."
@@ -14,14 +12,13 @@ puts "INTO THE SPEC FILE"
 
   s.platform      = :ios, '7.0'
   s.source        = {:git => 'ssh://rroberts@gerrit.instructure.com:29418/canvaskit'}
-  s.source_files  = 'CanvasKit/**/*', 'External Sources/Keychain', 'External Sources/INCal', 'External Sources/json-framework/Classes'
-  s.exclude_files = 'External Sources/SDURLCache/SDURLCacheTests.{h,m}'
+  s.source_files  = 'CanvasKit/**/*', 'CanvasKit/API\ Classes/**', 'External Sources/Keychain', 'External Sources/INCal'
+  s.exclude_files = 'CanvasKitTests', 'CanvasKitTests/CKAssignmentOverrideTests.m', 'External Sources/json-framework'
 
   s.requires_arc  = true
 
   s.dependency 'ISO8601DateFormatter'
   s.dependency 'TouchXML'
-  s.dependency 'GoogleAnalytics-iOS-SDK', '~> 2.0beta4'
   s.dependency 'SDURLCache'
 
   s.library = 'xml2'
