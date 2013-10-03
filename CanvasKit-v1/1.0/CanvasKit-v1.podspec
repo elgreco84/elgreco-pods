@@ -2,8 +2,8 @@ Pod::Spec.new do |s|
 
 puts "INTO THE SPEC FILE"
 
-  s.name         = "CanvasKit"
-  s.version      = "0.0.1"
+  s.name         = "CanvasKit-v1"
+  s.version      = "1.0"
   s.summary      = "A short description of CanvasKit."
 
   s.description  = "Something"
