@@ -2,21 +2,22 @@ Pod::Spec.new do |s|
 
 puts "INTO THE SPEC FILE"
 
-  s.name         = "CanvasKit-v1"
-  s.version      = "1.0"
-  s.summary      = "A short description of CanvasKit."
+  s.name          = "CanvasKit-v1"
+  s.version       = "1.0"
+  s.summary       = "A short description of CanvasKit."
 
-  s.description  = "Something"
+  s.description   = "Something"
 
-  s.homepage     = "http://instructure.com"
-  s.license      = 'MIT'
-  s.author       = { "Rick Roberts" => "rroberts@instructure.com" }
+  s.homepage      = "http://instructure.com"
+  s.license       = 'MIT'
+  s.author        = { "Rick Roberts" => "rroberts@instructure.com" }
 
-  s.platform     = :ios, '7.0'
+  s.platform      = :ios, '7.0'
+  s.source        = :git => 'ssh://rroberts@gerrit.instructure.com:29418/canvaskit'
   s.source_files  = 'CanvasKit/**/*', 'External Sources/Keychain', 'External Sources/INCal', 'External Sources/json-framework/Classes'
   s.exclude_files = 'External Sources/SDURLCache/SDURLCacheTests.{h,m}'
 
-  s.requires_arc = true
+  s.requires_arc  = true
 
   s.dependency 'ISO8601DateFormatter'
   s.dependency 'TouchXML'
