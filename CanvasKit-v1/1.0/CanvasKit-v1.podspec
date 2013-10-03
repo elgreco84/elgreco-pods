@@ -13,7 +13,7 @@ puts "INTO THE SPEC FILE"
   s.author        = { "Rick Roberts" => "rroberts@instructure.com" }
 
   s.platform      = :ios, '7.0'
-  s.source        = :git => 'ssh://rroberts@gerrit.instructure.com:29418/canvaskit'
+  s.source        = {:git => 'ssh://rroberts@gerrit.instructure.com:29418/canvaskit'}
   s.source_files  = 'CanvasKit/**/*', 'External Sources/Keychain', 'External Sources/INCal', 'External Sources/json-framework/Classes'
   s.exclude_files = 'External Sources/SDURLCache/SDURLCacheTests.{h,m}'
 
