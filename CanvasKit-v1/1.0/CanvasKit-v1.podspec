@@ -13,6 +13,7 @@ Pod::Spec.new do |s|
   s.platform      = :ios, '7.0'
   s.source        = {:git => 'ssh://rroberts@gerrit.instructure.com:29418/canvaskit'}
   s.source_files  = 'CanvasKit/**/*', 'CanvasKit/API\ Classes/**', 'External Sources/Keychain', 'External Sources/INCal'
+  s.resources = 'CKResources/**/*'
   s.exclude_files = 'CanvasKitTests', 'CanvasKitTests/CKAssignmentOverrideTests.m', 'External Sources/json-framework'
 
   s.requires_arc  = true
