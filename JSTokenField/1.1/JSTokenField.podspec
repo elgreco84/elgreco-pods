@@ -7,6 +7,7 @@ Pod::Spec.new do |s|
   s.author = { 'James Addyman' => 'support@jamsoftonline.com' }
   s.source = { :git => 'https://github.com/elgreco84/JSTokenField.git' }
   s.source_files = 'JSTokenField'
+  s.exclude_files = 'DemoAppDelegate.{h,m}, DemoViewController.{h,m}, JSTokenField-Info.plist, JSTokenField-Prefix.pch, main.m'
   s.requires_arc = true
 
   s.ios.deployment_target = '7.0'
